@@ -1,0 +1,61 @@
+.movieCard{
+    width: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px 2px black;
+    margin: 15px;
+}
+.badge{
+    margin: 15px 0;
+}
+.movieCard:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.movieData{
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieTitle{
+    padding: 3px 0;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.releaseDate, .mediaType{
+    padding: 2px;
+    font-size: 12px;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:500px){
+  
+.modal{
+   
+    width: 40%;
+}
+
+  .movieCard{
+      width: 100%;
+  }
+
+   }

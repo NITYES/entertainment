@@ -1,0 +1,10 @@
+.contentContainer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: initial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+}
